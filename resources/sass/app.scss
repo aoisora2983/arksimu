@@ -1,0 +1,131 @@
+// bootstrapハック
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+dl {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+//
+.card-title {
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[name="tag"]:checked + label,
+.active {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.chara-list {
+    display: flex;
+    height: 275px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    .card {
+        height: 100%;
+        padding-top: 5px;
+        .badge {
+            width: 78px;
+            border-radius: unset;
+            padding: 5px 0;
+        }
+        .other {
+            width: 67px !important;
+            margin-right: 5px;
+        }
+    }
+    .chara-card {
+        min-width: 150px;
+        min-height: 275px;
+        opacity: 1;
+        transition: all 0.5s ease-out;
+        .chara-box:not(:first) {
+            margin-left: 10px;
+        }
+        .card-text {
+            display: flex;
+            justify-content: center;
+            margin: 2px auto;
+            flex-wrap: wrap;
+        }
+        .chara-tags {
+            width: 145px;
+            .chara-tag {
+                display: inline;
+            }
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            margin-left: 25px;
+        }
+    }
+    .rarity1 > .card {
+        background-color: #fff;
+    }
+    .rarity2 > .card {
+        background-color: #ffffcc;
+    }
+    .rarity3 > .card {
+        background-color: #99ccff;
+    }
+    .rarity4 > .card {
+        background-color: #ccccff;
+    }
+    .rarity5 > .card {
+        background-color: #ffc7af;
+    }
+    .rarity6 > .card {
+        background-color: #ffbeda;
+    }
+    .undisplay {
+        min-width: 0;
+        max-width: 0;
+        min-height: 0;
+        max-height: 0;
+        opacity: 0;
+    }
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 11px;
+    .tag-box {
+        .tag-detail-list {
+            display: flex;
+            flex-wrap: wrap;
+            .tag-detail {
+                margin: 0 0 5px 0;
+                border-radius: unset;
+                margin-right: 5px;
+                padding: 3px 5px;
+                width: 90px;
+                font-size: 13px;
+            }
+        }
+    }
+    .tag-box:not(:first-of-type) {
+        border-top: 1px solid rgba(0, 0, 0, 0.125);
+    }
+}
