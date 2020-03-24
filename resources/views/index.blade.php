@@ -35,7 +35,7 @@
                 </nav>
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand" href="//github.com/aoisora2983/arksimu/issues" rel="nofollow">
-                        <img src="//www.aozora-blog.com/wp-content/uploads/2018/07/logo.png" width="30" height="30" class="d-inline-block align-top" alt="blogアイコン" loading="lazy">
+                        <img src="//www.aozora-blog.com/wp-content/uploads/ark/logo.png" width="30" height="30" class="d-inline-block align-top" alt="blogアイコン" loading="lazy">
                         gitHub
                     </a>
                 </nav>

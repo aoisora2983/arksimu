@@ -33,7 +33,6 @@ class CharaContoroller extends Controller
             }
             if ($index != 0) {
                 $record[$index]['other'] = preg_split('/@/', $record[$index]['other']);
-                $record[$index]['chara_img'] = public_path("img/" . $record[$index]['chara_img']);
             }
             $index++;
         }
