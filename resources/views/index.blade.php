@@ -16,6 +16,7 @@
         <meta property="og:locale" content="ja_JP" />
         <title>アークナイツ公開求人シミュレータ</title>
         <meta name="description" content="アークナイツの公開求人のシミュレータ。OR検索・AND検索対応。※必ず出ることを保証するものではないです。">
+        <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     </head>
     <body>
         <div id="app">
