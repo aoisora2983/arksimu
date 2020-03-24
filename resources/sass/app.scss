@@ -32,7 +32,7 @@ input[name="tag"]:checked + label,
 }
 
 .card-body {
-    padding: 0;
+    padding: 0 !important;
 }
 
 .chara-list {
@@ -64,7 +64,7 @@ input[name="tag"]:checked + label,
         .card-text {
             display: flex;
             justify-content: center;
-            margin: 2px auto;
+            margin: 2px auto !important;
             flex-wrap: wrap;
         }
         .chara-tags {
