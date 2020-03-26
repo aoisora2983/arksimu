@@ -9,10 +9,10 @@
         <meta property="og:title" content="アークナイツ公開求人シミュレータ" />
         <meta property="og:type" content="website">
         <meta property="og:description" content="アークナイツの公開求人のシミュレータ。OR検索・AND検索対応。" />
-        <meta property="og:image" content="画像のURL" />
+        <meta property="og:image" content="//www.aozora-blog.com/wp-content/uploads/2020/03/arksimu.jpg" />
         <meta name="twitter:card" content="Summary Card" />
         <meta name="twitter:site" content="@bluesky177896" />
-        <meta property="og:site_name" content="blue sky it" />
+        <meta property="og:site_name" content="blueSkyIt" />
         <meta property="og:locale" content="ja_JP" />
         <title>アークナイツ公開求人シミュレータ</title>
         <meta name="description" content="アークナイツの公開求人のシミュレータ。OR検索・AND検索対応。※必ず出ることを保証するものではないです。">
@@ -24,18 +24,18 @@
             <div class="container">
                 <div class="alert alert-primary" role="alert">
                     <p>※<a href="//arknights.wikiru.jp/" rel="nofollow">wiki</a>の情報と画像をお借りしています。問題があった場合削除します。</p>
-                    <p>※情報や絞り込みが間違っている場合があります。<br>
+                    <p>※スクレイピングして加工したものを個人製作のロジックで絞っているので、情報や絞り込みが間違っている場合があります。<br>
                     また、上級エリート以外ではタグが外れる可能性もあるようです。<br>
                     このシミュレータで出たキャラが必ず当たるわけではないのでお気を付けください。</p>
                 </div>
                 <nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand" href="http://www.aozora-blog.com/">
+                    <a class="navbar-brand" href="://www.aozora-blog.com/">
                         <img src="//www.aozora-blog.com/wp-content/uploads/2018/07/logo.png" width="30" height="30" class="d-inline-block align-top" alt="blogアイコン" loading="lazy">
                         ブログ
                     </a>
                 </nav>
                 <nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand" href="//github.com/aoisora2983/arksimu/issues" rel="nofollow">
+                    <a class="navbar-brand" href="//github.com/aoisora2983/arksimu/" rel="nofollow">
                         <img src="//www.aozora-blog.com/wp-content/uploads/ark/logo.png" width="30" height="30" class="d-inline-block align-top" alt="blogアイコン" loading="lazy">
                         gitHub
                     </a>
