@@ -5,15 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-        <meta property="og:url" content="http://arksimu.aozora-blog.com/" />
-        <meta property="og:title" content="アークナイツ公開求人シミュレータ" />
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="アークナイツの公開求人のシミュレータ。OR検索・AND検索対応。" />
-        <meta property="og:image" content="//www.aozora-blog.com/wp-content/uploads/2020/03/arksimu.jpg" />
-        <meta name="twitter:card" content="Summary Card" />
         <meta name="twitter:site" content="@bluesky177896" />
-        <meta property="og:site_name" content="blueSkyIt" />
-        <meta property="og:locale" content="ja_JP" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:creator" content="@bluesky177896" />
+        <meta name="twitter:title" content="アークナイツ公開求人シミュレータ" />
+        <meta name="twitter:description" content="アークナイツの公開求人のシミュレータ。OR検索・AND検索対応。" />
+        <meta name="twitter:url" content="//arksimu.aozora-blog.com/" />
+        <meta name="twitter:image" content="//www.aozora-blog.com/wp-content/uploads/2020/03/arksimu.jpg" />
         <title>アークナイツ公開求人シミュレータ</title>
         <meta name="description" content="アークナイツの公開求人のシミュレータ。OR検索・AND検索対応。※必ず出ることを保証するものではないです。">
         <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
@@ -29,9 +27,9 @@
                     このシミュレータで出たキャラが必ず当たるわけではないのでお気を付けください。</p>
                 </div>
                 <nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand" href="://www.aozora-blog.com/">
+                    <a class="navbar-brand" href="//www.aozora-blog.com/2020/03/26/post-2476/">
                         <img src="//www.aozora-blog.com/wp-content/uploads/2018/07/logo.png" width="30" height="30" class="d-inline-block align-top" alt="blogアイコン" loading="lazy">
-                        ブログ
+                        ブログで開発の日記を残してます。よろしければどうぞ。
                     </a>
                 </nav>
                 <nav class="navbar navbar-light bg-light">
