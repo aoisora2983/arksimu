@@ -10,8 +10,8 @@
         <meta name="twitter:creator" content="@bluesky177896" />
         <meta name="twitter:title" content="アークナイツ公開求人シミュレータ" />
         <meta name="twitter:description" content="アークナイツの公開求人のシミュレータ。OR検索・AND検索対応。" />
-        <meta name="twitter:url" content="//arksimu.aozora-blog.com/" />
-        <meta name="twitter:image" content="//www.aozora-blog.com/wp-content/uploads/2020/03/arksimu.jpg" />
+        <meta name="twitter:url" content="https://arksimu.aozora-blog.com/" />
+        <meta name="twitter:image" content="https://www.aozora-blog.com/wp-content/uploads/2020/03/arksimu.jpg" />
         <title>アークナイツ公開求人シミュレータ</title>
         <meta name="description" content="アークナイツの公開求人のシミュレータ。OR検索・AND検索対応。※必ず出ることを保証するものではないです。">
         <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
